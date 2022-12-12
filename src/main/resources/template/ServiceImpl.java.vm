@@ -1,0 +1,24 @@
+package ${package}.${moduleName}.service.impl;
+
+import ${package}.${moduleName}.entity.${className};
+import ${package}.${moduleName}.service.${className}Service;
+import  ${package}.${moduleName}.dao.${className}Mapper;
+import ${package}.core.base.BaseServiceImpl;
+import org.springframework.stereotype.Service;
+
+import javax.annotation.Resource;
+
+/**
+ * ${comments}接口实现类
+ *
+ * @author ${author}
+ * @since ${version} ${date}
+ */
+@Service
+public class ${className}ServiceImpl extends BaseServiceImpl<${className}> implements ${className}Service {
+
+    @Resource
+    private ${className}Mapper ${classname}Mapper;
+
+
+}

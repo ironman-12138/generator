@@ -1,0 +1,14 @@
+package ${package}.${moduleName}.service;
+
+import ${package}.${moduleName}.entity.${className};
+import ${package}.core.base.BaseService;
+
+/**
+ * ${comments}接口
+ *
+ * @author ${author}
+ * @since ${version} ${date}
+ */
+public interface ${className}Service extends BaseService<${className}> {
+
+}
